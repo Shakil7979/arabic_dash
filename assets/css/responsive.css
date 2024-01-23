@@ -302,6 +302,16 @@
     .ar_registerLogin_area_section:before {
         width: 19%;
     }
+    .ar_dashboard_main_area_wrapper { 
+        display: inherit;
+    }
+    .at_table_mainArea .table  { 
+        width: 1000px; 
+    } 
+    .at_table_mainArea {
+        margin-top: 20px;
+        overflow-x: scroll;
+    }
     .ar_singin_area_section.ar_singin_area_section:before {
         top: 85%;
     }

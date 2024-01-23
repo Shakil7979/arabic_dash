@@ -743,9 +743,7 @@ ul{
 
 
 /* left-content */
-.ar_dashboard_main_area_wrapper{
-	display: -webkit-box;
-	display: -ms-flexbox;
+.ar_dashboard_main_area_wrapper{  
 	display: flex;
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
