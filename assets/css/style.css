@@ -2904,4 +2904,101 @@ ul{
 .ar_orderPage_PopUp_area_wrapper.active{
 	display: none;
 }
+.ar_orderPage_PopUp_header{
+	position: relative;
+}
+.ar_orderPage_PopUp_header::after {
+	content: "";
+	position: absolute;
+	background: url('../images/popup/over.png');
+	background-repeat: no-repeat;
+	top: 0px;
+	left: 58px;
+	width: 13%;
+	height: 100%;
+	background-size: 126%;
+}
+
+.ar_smallPopupPage{
+	max-width: 647px;
+	width: 100%;
+}
+.ar_smallPopupPage .ar_orderPage_PopUp_header::after {
+	content: "";
+	position: absolute;
+	background: url('../images/popup/over.png');
+	background-repeat: no-repeat;
+	top: 0px;
+	left: 56px;
+	width: 17%;
+	height: 100%;
+	background-size: 130%;
+}
+.arSmallChaignHeading h2 span{
+	color: #505562;
+}
+
+.ar_popup_tableDiv_single_itam{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.ar_popup_tableDiv_single_itam p:last-child{
+	font-family: 'Cairo';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 100%;
+	text-transform: uppercase;
+	color: #2B2B2B;
+	flex: 0 0 60%;
+}
+.ar_popup_tableDiv_single_itam p:first-child{
+	font-family: 'Cairo';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 30px;
+	color: #2267B4;
+	flex: 0 0 40%;
+	text-align: right;
+}
+.ar_popup_tableDiv_single_itam{
+	border: 1px solid #E2E2E2;
+	padding: 10px 15px;
+}
+.ar_smallMiddleContent {
+	background-color: #F8FAFF;
+	padding: 0px;
+}
+.ar_new_groupForm.ar_info_form_group input, 
+.ar_new_groupForm.ar_info_form_group select, 
+.ar_new_groupForm.ar_info_form_group textarea {
+	max-width: 100%;
+	width: 100% !important;
+}
+.ar_smallPopupPage{
+	text-align: right;
+}
+.ar_popupForm_midle_span{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.ar_popupForm_midle_span span.spanUpdat{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 21px;
+	color: #949494;
+}
+.popUpFormSubmit{
+	text-align: right;
+}
+
+.ar_orderPage_PopUp_footer .ar_info_right_btn{
+	margin-top: 0px;
+}
+
 /* ---------------End Home Page CSS--------------- */
