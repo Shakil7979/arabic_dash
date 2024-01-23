@@ -23,6 +23,12 @@
             -ms-flex: 0 0 36%;
                 flex: 0 0 36%;
     }
+    .ar_clientReview_tag_area {
+        flex: 0 0 13%;
+    }
+    .ar_clientReview_content_area {
+        flex: 0 0 87%;
+    }
 }
 @media all and (max-width:1499px){
     .ar_registerLogin_area_sectionSpan {
@@ -58,6 +64,12 @@
         -webkit-box-flex: 0;
             -ms-flex: 0 0 40%;
                 flex: 0 0 40%;
+    }
+    .ar_clientReview_tag_area {
+        flex: 0 0 15%;
+    }
+    .ar_clientReview_content_area {
+        flex: 0 0 85%;
     }
     
 }
@@ -100,6 +112,37 @@
     .extralogin{
         padding-bottom: 290px;
     }
+
+
+
+    .ar_single_imgNavItem a img {
+        width: 40px;
+    }
+    .ar_single_navItem > p {
+        font-size: 16px;
+    }
+    .ar_single_NumberNavItem > p {
+        font-size: 16px;
+    }
+    .at_table_mainArea table thead th {
+        font-size: 14px;
+    }
+    .ar_clientReview_tag_area {
+        flex: 0 0 18%;
+    }
+    .ar_clientReview_content_area {
+        flex: 0 0 82%;
+    }
+    .ar_orderPage_singleItem_area {
+        width: 160px;
+        height: 160px;
+    }
+    .ar_orderPage_singleItem_Img a img {
+        width: 50px;
+    }
+    .ar_orderPage_singleItem_cont h4 {
+        font-size: 18px;
+    }
 }
 
 
@@ -128,9 +171,54 @@
         top: 38px;
         left: 10px;
     }
+
+
+
+    .ar_single_imgNavItem a img {
+        width: 35px;
+    }
+    .ar_single_navItem > p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .ar_clientReview_tag_area {
+        flex: 0 0 20%;
+    }
+    .ar_clientReview_content_area {
+        flex: 0 0 75%;
+    }
+    .ar_clientReview_content_area {
+        padding-left: 30px;
+    }
+    .ar_clientReview_tag_area {
+        padding: 20px 10px;
+    }
+
+    .ar_my_wallet_img a img {
+        width: 60px;
+    }
+    .ar_myWallet_cont h4 {
+        font-size: 28px;
+    }
+    .ar_my_wallet_img {
+        width: 75px;
+    }
+    .ar_orderPage_singleItem_area {
+        width: 140px;
+        height: 140px;
+    }
+    .ar_orderPage_itam_wrapper {
+        flex-wrap: wrap;
+    }
     
     
 }
+
+
+
+
+
+
 @media all and (max-width:1024px){
     .ar_dashboard_main_sidebar_area {
         display: none;
@@ -262,7 +350,52 @@
     .ar_info_form_group.sa:after{
         left: 35px;
     }
-    
+
+
+
+
+
+    .ar_single_NumberNavItem {
+        margin-left: 20px;
+    }
+    /* .ar_home_navItem_area {
+        flex-direction: column;
+    } */
+    .ar_clientReview_colorRange_area_wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    #clientID_tag{order:1}
+    #clientID_cont{order:2}
+
+    .ar_clientReview_tag_area{
+        display: flex;
+        align-items: center;
+    }
+    .ar_clientReivew_single_item {
+        width: 145px;
+        margin-right: 10px;
+    }
+    .ar_mywallet_area {
+        flex-direction: column;
+    }
+    .ar_myWallet_single_item {
+        padding: 40px 0px;
+    }
+    .ar_myWallet_single_item::after {
+        top: 0;
+        right: 0;
+        height: 2px;
+        width: 190px;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+    .ar_mywallet_area {
+        width: 310px;
+        margin: auto;
+    }
+ 
 }
 
 
@@ -377,6 +510,26 @@
         font-size: 16px;
         padding: 13px 0px;
     }
+    .ar_orderPage_singleItem_area {
+        width: 125px;
+        height: 125px;
+    }
+    .ar_orderPage_singleItem_cont h4 {
+        font-size: 14px;
+    }
+    .ar_orderPage_singleItem_Img a img {
+        width: 40px;
+    }
+    .ar_orderPage_singleItem_area > a img {
+        width: 15px;
+    }
+    .ar_orderPage_bottom_btn {
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    .ar_orderPage_second_itemArea h2 {
+        font-size: 20px;
+    }
 
 
 
@@ -419,6 +572,22 @@
     }
     .extralogin {
         padding-bottom: 250px;
+    }
+    .ar_new_page_middle_content_area {
+        padding: 20px 10px 20px 10px;
+    }
+    .ar_mywallet_area {
+        width: 275px;
+    }
+    .ar_orderPage_singleItem_area {
+        width: 110px;
+        height: 110px;
+    }
+    .ar_orderPage_singleItem_area {
+        margin: 0px 0px 15px 15px;
+    }
+    .ar_orderPage_second_itemArea h2 {
+        font-size: 18px;
     }
 }
 
