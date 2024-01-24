@@ -2901,6 +2901,10 @@ ul{
 	max-width: 847px;
 	width: 100%;
 }
+.ar_smallPopupPage {
+	top: -100px;
+	right: 100px;
+}
 .ar_orderPage_PopUp_area_wrapper.active{
 	display: none;
 }
@@ -2999,6 +3003,151 @@ ul{
 
 .ar_orderPage_PopUp_footer .ar_info_right_btn{
 	margin-top: 0px;
+}
+
+
+.ar_popUp_form_checkBOx_single .form-check{
+	display: flex;
+	align-items: center;
+}
+.ar_popUp_form_checkBOx_single .form-check input{
+	margin-left: 20px;
+}
+.ar_popUp_form_checkBOx_single.title p{
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 30px;
+	text-align: right;
+	color: #717171;
+}
+.ar_popUp_form_checkBOx_single .form-check label{
+	font-weight: 700;
+	font-size: 14px;
+	text-align: right;
+	color: #000000;
+}
+.ar_popUp_form_checkBOx_single{
+	margin-bottom: 15px;
+}
+.ar_popUp_form_checkBOx_single .form-check-input {
+	width: 1.5em;
+  	height: 1.5em;
+	background-image: url('../images/popup/Checkbox.png');
+	background-repeat: no-repeat;
+	border: none;
+}
+.ar_popUp_form_checkBOx_single .form-check-input:focus {
+	border-color: none;
+	outline: 0;
+	box-shadow: none;
+}
+.ar_orderPage_PopUp_footer .ar_info_right_btn input{
+	width: 105px;
+	padding: 11px 15px;
+}
+.ar_orderPage_PopUp_footer.paddingShort{
+	padding: 10px 0px;
+}
+.ar_popUp_form_checkBOx_single.english label{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	text-align: right;
+	color: #000000;
+}
+.ar_popUp_form_checkBOx_single.title.english p{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 21px;
+	text-align: right;
+	color: #717171;
+}
+.ar_orderPage_PopUp_header.english h2{
+	font-family: 'Poppins';
+	font-style: normal;
+}
+.ar_smallMiddleContent.english{
+	background-color: #fff;
+}
+.ar_miflle_formUpdate.english{
+	border: none;
+}
+.ar_orderPage_PopUp_footer.english{
+	justify-content: start;
+	margin-top: 30px;
+}
+.arSmallLogout{
+	max-width: 443px;
+	width: 100%;
+}
+.arSmallLogout .ar_orderPage_PopUp_header::after {
+	left: 56px;
+	width: 22%;
+}
+.arLogout_popup_img_cont{
+	display: flex;
+	align-items: center;
+}
+.arLogout_popup_img a img{
+	width: 40px;
+}
+.arLogout_popup_img{
+	margin-left: 30px;
+}
+.arLogout_popup_img a {
+	background-color: #F5F5F5;
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.arLogout_popup_cont h3{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: right;
+	color: #54595E;
+}
+.arLogout_popup_cont p{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 22px;
+	color: rgba(84, 89, 94, 0.6);
+	margin-top: 15px;
+}
+.ar_logout_popup_btn a{
+	background: #347AE2;
+	border-radius: 8px;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	color: #F5F5F5;
+	width: 169px;
+	display: inline-block;
+	text-align: center;
+	padding: 13px 0px;
+	margin: 0px 10px;
+	font-family: 'Poppins';
+	font-style: normal;
+
+}
+.ar_logout_popup_btn{
+	display: flex;
+	margin-top: 40px;
+}
+.ar_logout_popup_btn a:last-child{
+	background-color: transparent;
+	border: 1px solid #4F4F4F;
+	color: #4F4F4F;
 }
 
 /* ---------------End Home Page CSS--------------- */
