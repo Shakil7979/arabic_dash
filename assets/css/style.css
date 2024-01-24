@@ -2894,17 +2894,18 @@ ul{
 }
 .ar_orderPage_PopUp_area_wrapper {
 	position: absolute;
-	top: -105px;
+	top: -115px;
 	left: 0;
 	right: 0;
 	text-align: center;
 	max-width: 847px;
 	width: 100%;
+	margin: auto;
 }
-.ar_smallPopupPage {
+/* .ar_smallPopupPage {
 	top: -100px;
 	right: 100px;
-}
+} */
 .ar_orderPage_PopUp_area_wrapper.active{
 	display: none;
 }
