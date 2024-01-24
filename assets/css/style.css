@@ -1812,7 +1812,7 @@ ul{
 .ar_new_page_middle_content_area{
 	background-color: #F8FAFF;
 	padding: 20px 50px 20px 60px;
-	height: 100vh;
+	/* height: 100vh; */
 }
 
 
@@ -3181,5 +3181,19 @@ ul{
 }
 .reviewP {
 	margin: auto;
+}
+.ar_eye_wrap {
+	justify-content: center;
+}
+.completePending_area {
+	margin: auto;
+}
+.ar_table_header_dropdown select.form-select:focus {
+	border-color: none;
+	outline: 0;
+	box-shadow: none;
+}
+.ar_ar_clientRiview_linkDelet_img a img{
+	width: 40px;
 }
 /* ---------------End Home Page CSS--------------- */
