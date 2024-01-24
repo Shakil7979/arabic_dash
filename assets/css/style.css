@@ -3151,4 +3151,35 @@ ul{
 	color: #4F4F4F;
 }
 
+
+
+
+
+
+
+
+.ar_info_form_group.sa.bag::after {
+	left: 43px;
+}
+.ar_info_header_search {
+	display: none;
+}
+/* .ar_orderPage_itam_wrapper {
+	justify-content: space-between;
+}
+.ar_orderPage_itam_wrapper:last-child{
+	justify-content: flex-start;
+} */
+.ar_orderPage_itam_wrapper {
+	column-gap: 115px;
+}
+.at_table_mainArea table tbody td {
+	text-align: center;
+}
+.at_table_mainArea table thead th {
+	text-align: center;
+}
+.reviewP {
+	margin: auto;
+}
 /* ---------------End Home Page CSS--------------- */
