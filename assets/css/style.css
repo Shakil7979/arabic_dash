@@ -3540,13 +3540,6 @@ body{
 	/* display: none; */
 }
 .ar_orderPage_PopUp_area_wrapper {
-	position: absolute;
-	top: -115px;
-	left: 0;
-	right: 0;
-	text-align: center;
-	max-width: 847px;
-	width: 100%;
-	margin: auto;
+	
 	z-index: 9999999;
 }
