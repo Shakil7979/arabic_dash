@@ -90,9 +90,14 @@ $(document).ready(function(){
 
 // middle-popup
 $(".ar_orderPage_PopUp_header a").click(function(){
-    $(".ar_orderPage_PopUp_area_wrapper").toggleClass("active");
-    fadeOut() ;
+    $(".ar_orderPage_PopUp_area_wrapper").hide();
+    $('.popup_overlay').fadeOut(); 
   });
+
+// $(".ar_orderPage_PopUp_header a").click(function(){
+//     $(".ar_orderPage_PopUp_area_wrapper").toggleClass("active");
+   
+//   });
 
 
 
