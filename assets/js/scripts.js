@@ -91,6 +91,7 @@ $(document).ready(function(){
 // middle-popup
 $(".ar_orderPage_PopUp_header a").click(function(){
     $(".ar_orderPage_PopUp_area_wrapper").toggleClass("active");
+    fadeOut() ;
   });
 
 
