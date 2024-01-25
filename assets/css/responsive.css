@@ -194,6 +194,18 @@
            -moz-column-gap: 20px;
                 column-gap: 20px;
     }
+
+
+    .at_table_mainArea .fixTable {
+        width: 1110px;
+    }
+    .tableScroll_over {
+        overflow-x: scroll;
+    }
+    .at_table_mainArea {
+        overflow-x: scroll;
+    }
+    
    
 }
 
@@ -273,7 +285,9 @@
     .ar_single_NumberNavItem {
         margin-left: 25px;
     }
-    
+
+
+   
     
 }
 
@@ -371,9 +385,7 @@
     .ar_dashboard_main_area_wrapper { 
         display: inherit;
     }
-    .at_table_mainArea .table  { 
-        width: 1000px; 
-    } 
+     
     .at_table_mainArea {
         margin-top: 20px;
         overflow-x: scroll;
@@ -540,6 +552,9 @@
         -webkit-box-flex: 0;
             -ms-flex: 0 0 45%;
                 flex: 0 0 45%;
+    }
+    .at_table_mainArea .smallTable {
+        width: 1000px;
     }
  
 }
