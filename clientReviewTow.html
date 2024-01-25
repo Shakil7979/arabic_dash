@@ -281,13 +281,9 @@
                     <!-- coor-range -->
                     <div class="ar_cont_range_picker">
                       <h3>المظهر : جيد </h3>
-                      <div class="color-slider-container color-hue">
-                        <input type="range" min="0" max="100" value="" class="color-slider color-slider--hue" id="slider-hue">
-                        <div class="color-slider-value">
-                          <p>%</p>
-                          <div id="current-hue-value"><span>value</span></div>
-                        </div>
-                      </div>
+                      
+                      <input type="range" min="0" max="100" value="50" class="slider" id="myRange">
+                      <div id="percentage">50%</div>
                     </div>
 
                     <!-- rage-drop-up -->
@@ -328,13 +324,25 @@
                       </div>
                     </div>
 
-                    <div class="ar_clientReview_styleImg">
+                    <div class="ar_clientReview_styleImg  owl-carousel owl-theme">   
+                     <div class="ghgh">
                       <a href="#"><img src="assets/images/clientReview/img4.png" alt=""></a>
+                     </div>
+                     <div class="ghgh">
                       <a href="#"><img src="assets/images/clientReview/img3.png" alt=""></a>
+                     </div>
+                     <div class="ghgh">
                       <a href="#"><img src="assets/images/clientReview/img2.png" alt=""></a>
+                     </div>
+                     <div class="ghgh">
                       <a href="#"><img src="assets/images/clientReview/img1.png" alt=""></a>
+                     </div>
+                      <!-- <a href="#"><img src="assets/images/clientReview/img3.png" alt=""></a>
+                      <a href="#"><img src="assets/images/clientReview/img2.png" alt=""></a>
+                      <a href="#"><img src="assets/images/clientReview/img1.png" alt=""></a> -->
                     </div>
 
+                    <!-- owl-carousel owl-theme -->
                     <!-- link-delete-area -->
                     <div class="ar_clientRiview_link_delet_wrapper">
                       <div class="ar_clientRiview_link_delet_area">
@@ -376,15 +384,20 @@
                     <div class="ar_clientReview_table_area_wrapper">
                       <div class="ar_clientReview_table_area ">
                         <h3> التقيمات </h3>
+                        
+
+                        
                         <div class="ar_clientReview_table_singleItem gray">
                           <div class="ar_table_single_reviewCliet">
                            <h6>Is the property occupied?</h6>
                           </div>
                           <div class="ar_table_single_reviewCliet">
-                            <p> مطابق  <img src="assets/images/clientReview/colorDot.png" alt=""> </p>
+                            <p><label for="one">مطابق</label></p>
+                            <input type="radio" id="one" name="fav_language" value="CSS">
                           </div>
                           <div class="ar_table_single_reviewCliet">
-                            <p> غير مطابق  <img src="assets/images/clientReview/dot.png" alt=""> </p>
+                            <p> <label for="two">غير مطابق </label></p>
+                            <input type="radio" id="two" name="fav_language" value="HTML">
                           </div>
                         </div>
 
@@ -393,10 +406,12 @@
                            <h6>Is the property occupied?</h6>
                           </div>
                           <div class="ar_table_single_reviewCliet">
-                            <p> مطابق  <img src="assets/images/clientReview/colorDot.png" alt=""> </p>
+                            <p><label for="three">مطابق</label></p>
+                            <input type="radio" id="three" name="fav_language1" value="CSS">
                           </div>
                           <div class="ar_table_single_reviewCliet">
-                            <p> غير مطابق  <img src="assets/images/clientReview/dot.png" alt=""> </p>
+                            <p> <label for="four">غير مطابق </label></p>
+                            <input type="radio" id="four" name="fav_language1" value="HTML">
                           </div>
                         </div>
 
@@ -405,10 +420,12 @@
                            <h6>Is the property occupied?</h6>
                           </div>
                           <div class="ar_table_single_reviewCliet">
-                            <p> مطابق  <img src="assets/images/clientReview/colorDot.png" alt=""> </p>
+                            <p><label for="five">مطابق</label></p>
+                            <input type="radio" id="five" name="fav_language2" value="CSS">
                           </div>
                           <div class="ar_table_single_reviewCliet">
-                            <p> غير مطابق  <img src="assets/images/clientReview/dot.png" alt=""> </p>
+                            <p> <label for="six">غير مطابق </label></p>
+                            <input type="radio" id="six" name="fav_language2" value="HTML">
                           </div>
                         </div>
 
@@ -417,10 +434,12 @@
                            <h6>Is the property occupied?</h6>
                           </div>
                           <div class="ar_table_single_reviewCliet">
-                            <p> مطابق  <img src="assets/images/clientReview/colorDot.png" alt=""> </p>
+                            <p><label for="seven">مطابق</label></p>
+                            <input type="radio" id="seven" name="fav_language3" value="CSS">
                           </div>
                           <div class="ar_table_single_reviewCliet">
-                            <p> غير مطابق  <img src="assets/images/clientReview/dot.png" alt=""> </p>
+                            <p> <label for="eight">غير مطابق </label></p>
+                            <input type="radio" id="eight" name="fav_language3" value="HTML">
                           </div>
                         </div>
 
@@ -429,10 +448,12 @@
                            <h6>Is the property occupied?</h6>
                           </div>
                           <div class="ar_table_single_reviewCliet">
-                            <p> مطابق  <img src="assets/images/clientReview/colorDot.png" alt=""> </p>
+                            <p><label for="nine">مطابق</label></p>
+                            <input type="radio" id="nine" name="fav_language4" value="CSS">
                           </div>
                           <div class="ar_table_single_reviewCliet">
-                            <p> غير مطابق  <img src="assets/images/clientReview/dot.png" alt=""> </p>
+                            <p> <label for="ten">غير مطابق </label></p>
+                            <input type="radio" id="ten" name="fav_language4" value="HTML">
                           </div>
                         </div>
 
@@ -567,14 +588,36 @@
 
 
     <script>
-          const root = document.querySelector(':root');
-          let hueSlider = document.getElementById("slider-hue");
-          let output1 = document.getElementById("current-hue-value");
-          output1.innerHTML = hueSlider.value;
-          hueSlider.oninput = function() {
-            output1.innerHTML = this.value;
-            root.style.setProperty('--hue-wildcard', this.value);
-          }
+
+    
+
+      const range = document.getElementById('myRange');
+const colorful = document.getElementById('colorful');
+const percentageDisplay = document.getElementById('percentage');
+
+range.addEventListener('input', () => {
+  const value = range.value;
+  const percentage = `${value}%`;
+  percentageDisplay.textContent = percentage;
+  
+  const gradient = `linear-gradient(to right, red ${value}%, green ${value}%)`;
+  colorful.style.background = gradient;
+});
+
+
+
+
+
+
+
+          // const root = document.querySelector(':root');
+          // let hueSlider = document.getElementById("slider-hue");
+          // let output1 = document.getElementById("current-hue-value");
+          // output1.innerHTML = hueSlider.value;
+          // hueSlider.oninput = function() {
+          //   output1.innerHTML = this.value;
+          //   root.style.setProperty('--hue-wildcard', this.value);
+          // }
 
     </script>
 

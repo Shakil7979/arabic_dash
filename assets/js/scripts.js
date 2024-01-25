@@ -1,5 +1,13 @@
 $(document).ready(function(){
 
+    //   owl carousel
+    // $('.ar_clientReview_styleImg').owlCarousel({
+    //     items:2,
+    //     loop:true,
+    //     nav:true,
+    // })
+
+
     // mobile-navbar
     $(".ar_moblie_bars").click(function(){
         $(".ar_mobile_navbar_area").toggleClass("active");
@@ -94,10 +102,9 @@ $(".ar_orderPage_PopUp_header a").click(function(){
     $('.popup_overlay').fadeOut(); 
   });
 
-// $(".ar_orderPage_PopUp_header a").click(function(){
-//     $(".ar_orderPage_PopUp_area_wrapper").toggleClass("active");
-   
-//   });
+
+
+
 
 
 

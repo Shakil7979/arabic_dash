@@ -710,7 +710,7 @@
                 column-gap: 10px;
     }
     .ar_clientReview_styleImg {
-        overflow: scroll;
+        /* overflow: scroll; */
     }
     .ar_ar_clientRiview_linkDelet_cont p {
         padding: 5px 10px 5px 10px;
@@ -979,10 +979,7 @@
         padding: 10px;
     }
     .ar_clientReview_table_singleItem {
-        -webkit-box-orient:vertical;
-        -webkit-box-direction:normal;
-            -ms-flex-direction:column ;
-                flex-direction:column ;
+        flex-wrap: wrap;
     }
     .ar_orderPage_PopUp_tab a {
         font-size: 12px;
@@ -1025,6 +1022,15 @@
     .ar_smallPopupPage .ar_orderPage_PopUp_header:after {
         left: 45px;
         width: 23%;
+    }
+    .ar_table_single_reviewCliet:nth-child(1) {
+        flex: 0 0 100%;
+    }
+    .ar_table_single_reviewCliet:nth-child(3) {
+        flex: 0 0 50%;
+    }
+    .ar_table_single_reviewCliet:nth-child(2) {
+        flex: 0 0 50%;
     }
     
 }
