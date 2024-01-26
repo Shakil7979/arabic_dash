@@ -2302,16 +2302,9 @@ ul{
 .ar_clientReview_styleImg a img{
 	width: 130px;
 }
-.owl-carousel .owl-item img .ghgh a img{
-	width: 130px !important;
-}
-.owl-carousel .owl-item img {
-	display: block;
-	width: 130px;
-}
-.ar_clientReview_styleImg{
-	width: 100%;
-}
+
+
+
 .ar_clientRiview_link_delet_area{
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -3481,3 +3474,15 @@ body{
 	height: 20px;
   }
   
+
+  .ar_clientReview_styleImg.owl-carousel .owl-item img {
+	display: block;
+	width: 130px;
+}
+.ar_clientReview_styleImg {
+	max-width: 600px;
+	text-align: right;
+	width: 100%;
+}
+
+

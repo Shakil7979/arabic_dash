@@ -1,11 +1,29 @@
 $(document).ready(function(){
 
     //   owl carousel
-    // $('.ar_clientReview_styleImg').owlCarousel({
-    //     items:2,
-    //     loop:true,
-    //     nav:true,
-    // })
+    $('.ar_clientReview_styleImg').owlCarousel({
+        items:4,
+        loop:true,
+        margin:20,
+        dots:false,
+        nav:false,
+        responsive:{
+           0:{
+                items:2
+            },
+            400:{
+                items:3
+            },
+            500:{
+                items:4
+            }
+            
+        }
+    })
+
+    // $('.ar_clientReview_styleImg').slick({
+
+    //   });
 
 
     // mobile-navbar

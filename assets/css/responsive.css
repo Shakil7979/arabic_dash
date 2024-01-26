@@ -1032,6 +1032,9 @@
     .ar_table_single_reviewCliet:nth-child(2) {
         flex: 0 0 50%;
     }
+    .ar_clientReview_styleImg.owl-carousel .owl-item img {
+        width: 100%;
+    }
     
 }
 @media all and (max-width:340px){
