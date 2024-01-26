@@ -3484,5 +3484,9 @@ body{
 	text-align: right;
 	width: 100%;
 }
-
+.ar_style_fixCarousel {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
 
