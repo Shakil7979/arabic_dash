@@ -688,8 +688,8 @@
         margin-top: 50px;
         margin-left: 20px;
     }
-    .ar_orderPage_second_itemArea h2 {
-        font-size: 20px;
+    .opscondTitle h2 h2 {
+        font-size: 22px;
     }
     .ar_table_title h3 {
         display: none;
@@ -786,6 +786,11 @@
     }
 
 
+    .tableColumHideShowTH th:last-child,
+    .tableColumHideShowTD tr td:last-child{
+        display: block;
+    }
+
 
 
 }
@@ -840,8 +845,8 @@
     .ar_orderPage_singleItem_area {
         margin: 0px 0px 15px 15px;
     }
-    .ar_orderPage_second_itemArea h2 {
-        font-size: 18px;
+    .opscondTitle h2 {
+        font-size: 22px;
     }
     .ar_table_title h3 {
         font-size: 18px;
@@ -1034,6 +1039,16 @@
     }
     .ar_clientReview_styleImg.owl-carousel .owl-item img {
         width: 100%;
+    }
+    .ar_table_single_reviewCliet h6 {
+        padding-bottom: 12px;
+    }
+    .ar_orderPage_PopUp_tab a:last-child::after {
+        width: 10px;
+        height: 10px;
+        top: 5px;
+        right: 10px;
+        font-size: 8px;
     }
     
 }
