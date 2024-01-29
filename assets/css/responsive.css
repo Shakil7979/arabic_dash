@@ -168,7 +168,14 @@
         width: 135px;
         height: 135px;
     }
+    .ar_orderPage_itam_wrapper > a{
+        width: 135px;
+        height: 135px;
+    }
     .ar_orderPage_singleItem_Img a img {
+        width: 50px;
+    }
+    .ar_orderPage_singleItem_Img > img {
         width: 50px;
     }
     .ar_orderPage_singleItem_cont h4 {
@@ -842,7 +849,15 @@
         width: 110px;
         height: 110px;
     }
-    .ar_orderPage_singleItem_area {
+    .ar_orderPage_itam_wrapper > a{
+        width: 110px;
+        height: 110px;
+    }
+    
+    /* .ar_orderPage_singleItem_area {
+        margin: 0px 0px 15px 15px;
+    } */
+    .ar_orderPage_itam_wrapper > a {
         margin: 0px 0px 15px 15px;
     }
     .opscondTitle h2 {

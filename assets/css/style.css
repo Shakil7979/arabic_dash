@@ -2682,13 +2682,25 @@ ul{
 .ar_table_searchEnglish input::placeholder{
 	text-align: left;
 }
-.ar_orderPage_singleItem_area{
+.ar_orderPage_singleItem_area {
 	width: 180.31px;
 	height: 178.77px;
 	background: -webkit-linear-gradient(226.39deg, #2267B4 54.52%, #2E2E48 86.32%);
 	background: linear-gradient(223.61deg, #2267B4 54.52%, #2E2E48 86.32%);
 	box-shadow: 0px 3.08224px 25.4285px rgba(0, 0, 0, 0.25);
 	border-radius: 30.8224px;
+}
+.ar_orderPage_itam_wrapper > a {
+	width: 180.31px;
+	height: 178.77px;
+	background: -webkit-linear-gradient(226.39deg, #2267B4 54.52%, #2E2E48 86.32%);
+	background: linear-gradient(223.61deg, #2267B4 54.52%, #2E2E48 86.32%);
+	box-shadow: 0px 3.08224px 25.4285px rgba(0, 0, 0, 0.25);
+	border-radius: 30.8224px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
 }
 .ar_orderPage_itam_wrapper{
 	display: -webkit-box;
@@ -2715,10 +2727,10 @@ ul{
 	-webkit-box-direction: normal;
 	    -ms-flex-direction: column;
 	        flex-direction: column;
-	position: relative;
+	/* position: relative; */
 	cursor: pointer;
 }
-.ar_orderPage_singleItem_Img a img{
+.ar_orderPage_singleItem_Img > img{
 	width: 69px;
 }
 .ar_orderPage_singleItem_cont h4{
@@ -2728,7 +2740,7 @@ ul{
 	text-align: center;
 	color: #FFFFFF;
 }
-.ar_orderPage_singleItem_area > a img {
+.ar_orderPage_singleItem_area > img {
 	width: 25px;
 	position: absolute;
 	top: 13px;
@@ -2746,7 +2758,8 @@ ul{
 	text-align: right;
 	color: #5F5F5F;
 }
-.ar_orderPage_singleItem_area{
+
+.ar_orderPage_itam_wrapper > a {
 	margin: 0px 0px 25px 25px;
 }
 
@@ -3407,10 +3420,10 @@ ul{
 
 
 
-body{
+/* body{
 	position: relative;
-}
-.popup_overlay {
+} */
+/* .popup_overlay {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -3419,8 +3432,8 @@ body{
 	background: #F8FAFF;
 	opacity: 0.65;
 	z-index: 9;
-	/* display: none; */
-}
+	
+} */
 .ar_orderPage_PopUp_area_wrapper {
 	z-index: 9999999;
 }
@@ -3529,5 +3542,9 @@ body{
 }
 .tableColumHideShowTD tr td:last-child{
 	display: none;
+}
+
+.white-popup-block {
+	top: -250px;
 }
 
