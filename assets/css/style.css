@@ -3547,4 +3547,26 @@ ul{
 .white-popup-block {
 	top: -250px;
 }
-
+.carousel_img_icon{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: absolute;
+	top: 4px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	padding: 0px 15px 0px 10px;
+}
+.carousel_img_icon a{
+	color: #000;
+	font-size: 16px;
+	font-weight: 600;
+	margin-right: 0px;
+}
+.carousel_img_icon a img{
+	width: 10px !important;
+}
+.update_images{
+	position: relative;
+}
