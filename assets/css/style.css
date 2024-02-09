@@ -3570,3 +3570,48 @@ ul{
 .update_images{
 	position: relative;
 }
+.ar_ar_clientRiview_linkDelet_cont textarea {
+	border: none;
+	width: 100%;
+	padding: 10px 20px;
+	text-align: right;
+	background-color: #fff;
+  	border: 1px solid #EAEAEA;
+	outline: none;
+	border-radius: 10px;
+	height: 110px;
+	padding-left: 75px;
+	font-size: 14px;
+}
+.ar_ar_clientRiview_linkDelet_cont textarea::placeholder{
+	text-align: right;
+	color: #333333;
+	font-size: 16px;
+	font-weight: 400;
+}
+.ar_ar_clientRiview_linkDelet_single{
+	display: inherit;
+}
+.ar_ar_clientRiview_linkDelet_img {
+	display: flex;
+	flex-direction: column;
+}
+.ar_link_delet_wrap{
+	flex: 0 0 50%;
+}
+.ar_ar_clientRiview_linkDelet_single {
+	-webkit-box-flex: 0;
+	-ms-flex: 0 0 49%;
+	flex: 0 0 49%;
+	background-color: transparent;
+	border: 1px solid transparent;
+	border-radius: 0px;
+}
+.ar_ar_clientRiview_linkDelet_single{
+	position: relative;
+}
+.ar_ar_clientRiview_linkDelet_img{
+	position: absolute;
+	left: 0;
+	top: 15px;
+}
