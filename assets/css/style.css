@@ -3556,7 +3556,7 @@ ul{
 	left: 0;
 	right: 0;
 	margin: auto;
-	padding: 0px 15px 0px 10px;
+	padding: 0px 25px 0px 10px;
 }
 .carousel_img_icon a{
 	color: #000;
@@ -3614,4 +3614,7 @@ ul{
 	position: absolute;
 	left: 0;
 	top: 15px;
+}
+.ar_clientReview_styleImg {
+	justify-content: flex-start;
 }
