@@ -12,7 +12,7 @@ $(document).ready(function(){
                             <a href="#"><img src="assets/images/clientReview/delet.png" alt=""></a>
                         </div>
                     </div>`;
-                    
+
             $('.ar_link_delet_wrap').append(newItemAdd);
      });
 
