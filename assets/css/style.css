@@ -2311,10 +2311,7 @@ ul{
 .ar_clientRiview_link_delet_area{
 	display: -webkit-box;
 	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+	display: flex; 
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
@@ -3582,6 +3579,7 @@ ul{
 	height: 110px;
 	padding-left: 75px;
 	font-size: 14px;
+	resize: none;
 }
 .ar_ar_clientRiview_linkDelet_cont textarea::placeholder{
 	text-align: right;
