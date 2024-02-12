@@ -2,47 +2,27 @@ $(document).ready(function(){
 
     $(".ar_clientRiview_link_delet_BtnNew").click(function(){
         var newItemAdd = `
-                        <div class="ar_link_delet_wrap newAddItemApend">
-                        <div class="ar_ar_clientRiview_linkDelet_single">
-                        <div class="ar_ar_clientRiview_linkDelet_cont">
-                            <textarea name="clta" id="clta" placeholder="Lorem ipsum dolor sit amet consectetur.."></textarea>
-                            
-                        </div>
-                        <div class="ar_ar_clientRiview_linkDelet_img">
-                            <a class="first" href="#"><img src="assets/images/clientReview/link.png" alt=""></a>
-                            <a href="#"><img src="assets/images/clientReview/delet.png" alt=""></a>
-                        </div>
-                        </div>
-                    </div>
+        <div class="ar_link_delet_wrap">
+        <h3>.ملاحظة </h3>
+        <div class="ar_ar_clientRiview_linkDelet_single">
+          <div class="ar_ar_clientRiview_linkDelet_cont">
+            <textarea name="clta" id="clta" placeholder="Lorem ipsum dolor sit amet consectetur.."></textarea>
+            
+          </div>
+          <div class="ar_ar_clientRiview_linkDelet_img">
+            <a class="first" href="#"><img src="assets/images/clientReview/link.png" alt=""></a>
+            <a href="#"><img src="assets/images/clientReview/delet.png" alt=""></a>
+          </div>
+        </div>
+      </div>
                     `;
 
             $('.ar_clientRiview_link_delet_area').append(newItemAdd);
      });
 
-    //   owl carousel
-    // $('.ar_clientReview_styleImg').owlCarousel({
-    //     items:4,
-    //     loop:true,
-    //     margin:20,
-    //     dots:false,
-    //     nav:false,
-    //     responsive:{
-    //        0:{
-    //             items:2
-    //         },
-    //         400:{
-    //             items:3
-    //         },
-    //         500:{
-    //             items:4
-    //         }
-            
-    //     }
-    // })
 
-    // $('.ar_clientReview_styleImg').slick({
 
-    //   });
+    
 
 
     // mobile-navbar
