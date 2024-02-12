@@ -3626,10 +3626,30 @@ ul{
 	line-height: 16px;
 	text-align: center;
 	color: #FFFFFF;
-	width: 50%;
+	width: 48%;
 	display: inline-block;
 	padding: 18px;
 }
 .ar_ar_clientRiview_linkDelet_single{
 	margin-bottom: 10px;
+}
+.ar_h3_textarea_title_area{
+	display: flex;
+	align-items: center;
+	/* justify-content: space-between; */
+}
+.ar_h3_textarea_title_area h3{
+	flex:0 0 50%;
+}
+.ar_h3_textarea_title_area h3.last_child{
+	padding-right: 30px;
+}
+.ar_clientRiview_link_delet_area{
+	flex-wrap: wrap;
+}
+.ar_link_delet_wrap{
+	flex: 0 0 48%;
+}
+.ar_h3_textarea_title_area{
+	padding-bottom: 15px;
 }

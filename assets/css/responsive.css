@@ -212,6 +212,9 @@
     .at_table_mainArea {
         overflow-x: scroll;
     }
+    .ar_link_delet_wrap {
+        flex: 0 0 47%;
+    /* } */
     
    
 }
@@ -817,6 +820,16 @@
     }
     .carousel_img_icon {
         padding: 0px 20px 0px 10px;
+    }
+    .ar_h3_textarea_title_area h3 {
+        flex: 0;
+    }
+    .ar_h3_textarea_title_area {
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .ar_link_delet_wrap {
+        margin-top: 0px;
     }
 
 }
