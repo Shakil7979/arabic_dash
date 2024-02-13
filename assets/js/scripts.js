@@ -1,9 +1,11 @@
 $(document).ready(function(){
 
+    var count = 2 ;
     $(".ar_clientRiview_link_delet_BtnNew").click(function(){
+        count = count + 1;
         var newItemAdd = `
         <div class="ar_link_delet_wrap">
-        <h3>.ملاحظة </h3>
+        <h3> `+count+` .ملاحظة </h3>
         <div class="ar_ar_clientRiview_linkDelet_single">
           <div class="ar_ar_clientRiview_linkDelet_cont">
             <textarea name="clta" id="clta" placeholder="Lorem ipsum dolor sit amet consectetur.."></textarea>
