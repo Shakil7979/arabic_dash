@@ -3655,10 +3655,21 @@ ul{
 	
 }
 .update_images > a img{
-	width: 130px;
+	width: 100%;
 	height: 125px;
 	border-radius: 10px;
 }
 .update_images{
 	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.ar_clientReview_styleImg {
+	flex-wrap: wrap;
+}
+.ar_clientReview_styleImg {
+	max-width: 100%;
+}
+.carousel_img_icon a i{
+	width: 22px;
+	color: #2366B4;
 }

@@ -831,6 +831,9 @@
     .ar_link_delet_wrap {
         margin-top: 0px;
     }
+    /* .update_images > a img {
+        width: 130px;
+    } */
 
 }
 
@@ -973,6 +976,9 @@
     .carousel_img_icon {
         padding: 0px 10px 0px 10px;
     }
+    .ar_clientReview_styleImg {
+        justify-content: center;
+    }
     
     
 }
@@ -1099,6 +1105,9 @@
         top: 5px;
         right: 10px;
         font-size: 8px;
+    }
+    .update_images {
+        margin-right: 5px;
     }
     
 }
